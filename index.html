@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Judul Web -->
+        <title>Traveling</title>
+
+        <!-- Menghubungkan file eksternal CSS -->
+        <link rel="stylesheet" href="style\style.css">
+    </head>
+
+    <div class="foto"> 
+        <img src="assets\pantai.jpg" width="200" height="300" alt="Traveling to Bali">
+    </div>
+    
+    <div class="foto1">
+        <img src="assets\resort.JPG" width="280" height="350" alt="bintanglaut">
+    </div>    
+
+    <div class="foto2">
+        <img src="assets\nusapenida.JPG" width="280" height="350" alt="bintanglaut">
+    </div> 
+
+    <body>     
+      
+        <h1 style="color:rgb(135, 77, 164); font-size: 60px; text-align: center;" top: 10>Traveling to Bali</h1>         <!-- Inline CSS -->
+        
+        <div class="judul">
+        <h2 style="color:rgb(226, 97, 151); font-size: 35px;">Registration Form for Traveling to Bali</h2>    <!-- Internal CSS -->
+        <h3>if you are tired, have a lot on your mind and want to take a vocation please join this travel program.</h3>
+        <h3>only with Rp.1.000.000 you can get:</h3>
+        </div>
+
+        <div class="deskripsi">   
+        <p>We are very happy if you join this program </p>
+        <p>because this program has many benefits for you. Have fun</p>
+        </div>
+
+        <div class="fasilitas">
+            <b>facilities :</b>
+            <ul>
+                <li>Accomodation</li>
+                <li>Eat 3 times a day</li>
+                <li>Beach</li>
+                <li>Nusa Penida</li>
+            </ul>
+        </div>
+
+        
+        <!-- membuat label Name, email dan password dan login -->  
+        <div class="form">
+            <h2>Register</h2>
+            <form>    
+                <label for="name" style="color: rgb(162, 80, 172) ;">Full Name:</label><br />
+                <input type="full name" id="full name" name="full name"><br />
+                <label for="email" style="color: rgb(143, 63, 157) ;">Email:</label><br />
+                <input type="email" id="email" name="email"><br />
+                <label for="password" style="color: rgb(169, 79, 163) ;">Password:</label><br />
+                <input type="password" id="password" name="Password"><br />
+                <button onclick="klik()">Register</button>    
+            </form>  
+                <p id="waktu"></p>                         
+                <script>                                                                
+                    function klik(){
+                        alert("Register Success!!!") ;     
+                    }
+                </script>
+                <script src="./script/main.js"></script>        <!-- memanggil javascript eksternal fungsi date -->     
+        </div>
+
+</body>
+</html>

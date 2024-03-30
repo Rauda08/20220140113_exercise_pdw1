@@ -1,0 +1,161 @@
+body{
+	height: 100%;
+	margin: 50px;
+	padding: 50px;
+	font-family: garamond;
+	box-sizing: border-box;
+  background: linear-gradient(to bottom, #7fd1f1, #b0d2ea);
+}
+.foto{
+	width: 200px;
+	height: 250px;
+	border-radius: 29px;
+	position:absolute ;
+	top: 95%;
+	left: 15%;
+	transform: translate(-50%,-50%);
+	box-shadow: 5px 5px 15px 5px #4b5ca7;
+	overflow: hidden;
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid #ccc;
+} 
+
+.foto1{
+  width: 200px;
+	height: 250px;
+	border-radius: 29px;
+	position: absolute;
+	top: 65%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	box-shadow: 5px 5px 15px 5px #4b5ca7;
+	overflow: hidden;
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid #ccc;
+}
+
+.foto2{
+  width: 200px;
+	height: 250px;
+	border-radius: 29px;
+	position: absolute;
+	top: 95%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	box-shadow: 5px 5px 15px 5px #4b5ca7;
+	overflow: hidden;
+	display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid #ccc;
+}
+
+.form {
+  text-align: center;
+  padding: 40px;
+  box-shadow: 5px 5px 15px 5px #4b5ca7;
+  margin-left: 750px;
+  margin-right: 100px;
+  margin-top: 70px;
+} 
+
+
+.form input[type="email"],
+.form input[type="full name"], 
+.form input[type="password"] 
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px;
+  border: 1px solid #08064c;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form button {
+  background-color: #ba6fcf;
+  color: white;
+  padding: 10px 6px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: 18%;
+  top: 100%;
+}
+
+.form button:hover {
+  opacity: 0.8;
+}
+
+.judul{
+  text-align: center;
+}
+
+
+.deskripsi{
+  position: absolute;
+  top: 145%;
+  text-align: center;
+  vertical-align: auto;
+color: #86135e;
+margin-left: 750px;
+margin-right: 80px;
+}
+
+.fasilitas{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  text-align: center;
+  vertical-align: auto;
+  color: #7c37c2; 
+  font-size: x-large;
+  font-style: italic;
+  border: 2px solid #3e0873; 
+  padding: 10px; 
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px rgb(249, 247, 250);
+}
+
+h1 {
+
+  color: rgb(241, 46, 189);
+  text-align: center;
+  font-family: "Brush Script MT";
+  border: 2px solid #3e0873; 
+  padding: 10px; 
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px rgb(249, 247, 250);
+  
+}
+h2 {
+  color: rgb(107, 42, 124);
+  top: 100%;
+  left: 20%;
+  font-style: italic;
+}
+h3 {
+  color: rgb(191, 80, 152);
+top: 190%;
+  left: 20%;
+  text-shadow: #ccc;
+}
+p {
+  font-family: "times new roman"
+}
+
+.card {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width : 900 px;
+  height : 500px;
+  border-radius: 20px;
+  
+}
+
